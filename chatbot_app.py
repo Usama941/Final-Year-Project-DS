@@ -72,7 +72,7 @@ def generate_response(intent, sentiment):
 # 🌐 Streamlit UI
 
 st.set_page_config(page_title="Intent Chatbot", page_icon="🤖")
-add_bg_image("robot-blank-sign.jpg") 
+#add_bg_image("robot-blank-sign.jpg") 
 # 👈 Call happens AFTER the function is defined
 st.markdown("""
     <h1 style='text-align: center; color: #3498db; font-size: 42px; font-family: Arial;
